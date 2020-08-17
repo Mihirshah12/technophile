@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>All ordered products page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.18/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css">
+        <link rel="stylesheet" href="../css/home.css">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+        <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+
+        <script src="../js/showallordered.js"></script>
+    </head>
+    <body>
+     <div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Admin Panel.</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            <p>Welcome admin</p>
+            <li >
+                <a href="../html/home.html">Edit Product</a>
+                
+            </li>
+            <li class="active">
+                <a href="../html/showallordered.html">Show Ordered Products.</a>
+            </li>
+            <li>
+                <a href="../php/logout.php">Logout</a>
+            </li>
+            
+            
+           <!--  <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="#">Page 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Portfolio</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li> -->
+        </ul>
+    </nav>
+    <!-- <div>
+            <div>
+                <h4 style="margin-top: 10px;padding:10px;">Click on row to update product.</h4>
+            </div>
+    </div> -->
+        <div style="margin-top: 10px;margin:auto;">
+                <table id="displayTableData" class="display table table-striped table-bordered nowrap">
+                        <thead>
+                            <tr>
+                                <th>FirstName</th>
+                                <th>LastName</th>
+                                <th>Address </th>
+                                <th>Phone </th>
+                                <th>Email </th>
+                                <th>Pid </th>
+                                <th>Quantity Ordered </th>
+                                <th>Product Name </th>
+                                <th>Date</th>
+                              
+                            
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>A</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <td>C</td>
+                                <td>D</td>
+                            </tr>
+                        </tbody>
+                    </table>
+        </div>
+        
+</div>
+
+</div>   
+        
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
+    </body>
+</html>
